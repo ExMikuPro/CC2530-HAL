@@ -12,9 +12,9 @@ void main()
     /* 无限循环 */
     while(1){
       if(P0_1 == 0){
-        GPIO_GPIO_SET(0, 4); // 将LED端口复位
+        GPIO_GPIO_SET(0, 4); // 将LED端口置位
       }else{
-        GPIO_GPIO_RESET(0, 4); // 将LED端口置位
+        GPIO_GPIO_RESET(0, 4); // 将LED端口复位
         while(P0_1 != 0);
       }
     }
