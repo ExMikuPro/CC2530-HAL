@@ -1,4 +1,6 @@
 #include "cc2530_hal_GPIO.h"
+#include "cc2530_hal_CLOCK.h"
+#include "cc2530_hal_DELAY.h"
 
 /* GPIO配置输出 */
 #define GPIO_IO_OUTPUT(port, pin) do {\
@@ -15,3 +17,6 @@
 #define GPIO_IO_INPUT_DOWN(port, pin) do {\
     GPIO_IO_INPUT(port, pin, GPIO_INPUT_PULLDOWN);\
 } while(0)
+
+
+

@@ -1,5 +1,5 @@
-#ifndef CC2530_IOCTL_H
-#define CC2530_IOCTL_H
+#ifndef CC2530_HAL_GPIO_H
+#define CC2530_HAL_GPIO_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -65,9 +65,10 @@ if(var == 0){\
         else GPIO_Input_Mode(2 , (5+port), 1);\
     }\
 } while(0)
- 
+
+
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* #ifndef CC2530_IOCTL_H */
+#endif
