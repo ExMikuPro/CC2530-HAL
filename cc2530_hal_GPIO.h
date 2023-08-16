@@ -5,43 +5,43 @@
 extern "C" {
 #endif
 
-/* GPIO ×´Ì¬ */
-#define GPIO_OUTPUT          0 // Êä³ö
-#define GPIO_INPUT_PULLUP    1 // ÊäÈëÉÏÀ­
-#define GPIO_INPUT_PULLDOWN  2 // ÊäÈëÏÂÀ­
-#define GPIO_INPUT_TRISTATE  3 // ÊäÈëÈıÌ¬
+/* GPIO çŠ¶æ€ */
+#define GPIO_OUTPUT          0 // è¾“å‡º
+#define GPIO_INPUT_PULLUP    1 // è¾“å…¥ä¸Šæ‹‰
+#define GPIO_INPUT_PULLDOWN  2 // è¾“å…¥ä¸‹æ‹‰
+#define GPIO_INPUT_TRISTATE  3 // è¾“å…¥ä¸‰æ€
 
-#define GPIO_SET 1     // ÖÃÎ»
-#define GPIO_RESET 0   // ¸´Î»
+#define GPIO_SET 1     // ç½®ä½
+#define GPIO_RESET 0   // å¤ä½
 
-#define GPIO_GPIO_SET(port, pin)      P##port##_##pin = GPIO_SET // ÖÃÎ»
-#define GPIO_GPIO_RESET(port, pin)    P##port##_##pin = GPIO_RESET // ¸´Î»
-#define GPIO_GET(port, pin)           P##port##_##pin // »ñÈ¡×´Ì¬
+#define GPIO_GPIO_SET(port, pin)      P##port##_##pin = GPIO_SET // ç½®ä½
+#define GPIO_GPIO_RESET(port, pin)    P##port##_##pin = GPIO_RESET // å¤ä½
+#define GPIO_GET(port, pin)           P##port##_##pin // è·å–çŠ¶æ€
 
 
-#define GPIO_IOCTL_BV(x)      (1<<(x))   // Î»×óÒÆ
+#define GPIO_IOCTL_BV(x)      (1<<(x))   // ä½å·¦ç§»
 
-// GPIOÍ¨ÓÃÄ£Ê½
+// GPIOé€šç”¨æ¨¡å¼
 #define GPIO_Type_TY(port,pin) do{\
   P##port##SEL &= ~GPIO_IOCTL_BV(pin);\
 }while(0)
   
-// GPIOÍâÉèÄ£Ê½
+// GPIOå¤–è®¾æ¨¡å¼
 #define GPIO_Type_WS(port,pin) do{\
 P##port##SEL |= GPIO_IOCTL_BV(pin);\
 } while(0)
   
-// GPIOÊäÈëÄ£Ê½
+// GPIOè¾“å…¥æ¨¡å¼
 #define GPIO_Mode_Input(port,pin) do{\
 P##port##DIR &= ~GPIO_IOCTL_BV(pin);\
 } while(0)
 
-// GPIOÊä³öÄ£Ê½
+// GPIOè¾“å‡ºæ¨¡å¼
 #define GPIO_Mode_Output(port,pin) do{\
 P##port##DIR |= GPIO_IOCTL_BV(pin);\
 } while(0)
     
-// GPIOÊäÈë×´Ì¬
+// GPIOè¾“å…¥çŠ¶æ€
 #define GPIO_Input_Mode(port,pin,var) do{\
 if(var == 0){\
   P##port##INP &= ~GPIO_IOCTL_BV(pin);\
@@ -50,8 +50,8 @@ if(var == 0){\
 }\
 } while(0)
 
-// GPIOÅäÖÃÊäÈë
-// P1_0, P1_1 ²»ÄÜÓÃ×÷ÊäÈë
+// GPIOé…ç½®è¾“å…¥
+// P1_0, P1_1 ä¸èƒ½ç”¨ä½œè¾“å…¥
 #define GPIO_IO_INPUT(port, pin, mode) do {\
     if (port > 2 || pin > 7) {break;}\
     if ((port) == 1 && ((pin) == 0 || (pin) == 1)){ break; }\
