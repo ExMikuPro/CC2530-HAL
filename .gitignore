@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IAR Settings  
 **/settings/*.crun  
 **/settings/*.dbgdt  
@@ -16,3 +17,39 @@
 **/Obj/*.pbd.*  
 **/Obj/*.pbi  
 **/Obj/*.pbi.*  
+=======
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+# ssh_key
+id_rsa
+>>>>>>> 2f0eb0ecf19e413cbb2b300ed677e08c8f6e130b
