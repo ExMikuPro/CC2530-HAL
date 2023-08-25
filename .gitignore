@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # IAR Settings  
 **/settings/*.crun  
 **/settings/*.dbgdt  
@@ -50,6 +49,6 @@
 *.exe
 *.out
 *.app
+
 # ssh_key
 id_rsa
->>>>>>> 2f0eb0ecf19e413cbb2b300ed677e08c8f6e130b
