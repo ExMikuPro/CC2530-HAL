@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3339823405</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\code\SSD1306OLED\dev_display.h</file>
+            <file>$PROJ_DIR$\..\code\SSD1306OLED\devDisplay.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dev_display.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\cc2530_hal_SPI.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\cc2530_hal_SPI.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SSD1306OLED.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\SSD1306OLED.d51</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl8051Normal.h</file>
+            <file>$PROJ_DIR$\..\code\HAL\cc2530_hal_CLOCK.h</file>
+            <file>$PROJ_DIR$\..\code\HAL\cc2530_hal.h</file>
+            <file>$PROJ_DIR$\..\code\HAL\cc2530_hal_DELAY.h</file>
+            <file>$PROJ_DIR$\..\code\HAL\cc2530_hal_GPIO.h</file>
+            <file>$PROJ_DIR$\..\code\HAL\cc2530_hal_SPI.c</file>
+            <file>$PROJ_DIR$\..\code\HAL\cc2530_hal_SPI.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dev_display.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\dev_display.pbi</file>
+            <file>$PROJ_DIR$\..\code\SSD1306OLED\dev_display.c</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\oled.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\cc2530_hal_SPI.__cstat.et</file>
+            <file>$PROJ_DIR$\..\code\HAL\main.c</file>
+            <file>$PROJ_DIR$\..\code\SSD1306OLED\oled.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\oled.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\oled.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl-pli-blxd-1e16x01n.r51</file>
+            <file>$PROJ_DIR$\Debug\List\SSD1306OLED.map</file>
+            <file>$PROJ_DIR$\Debug\Exe\SSD1306OLED.hex</file>
+            <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2530F256_banked.xcl</file>
+            <file>$PROJ_DIR$\..\code\SSD1306OLED\dev_display_init.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\SSD1306OLED.d51</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 35 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 37 4 32 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\HAL\cc2530_hal_SPI.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 21 19 11 9 12 8 15 6 3 14 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 3 15 11 6 19 13 12 8 14 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 10 35 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\SSD1306OLED\dev_display.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 0 13 17 19 16 18 11 9 12 8 15 6 3 14 21 26 27 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25 9 11 17 19 15 13 26 18 3 6 12 0 16 21 8 14 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\code\SSD1306OLED\oled.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 13 17 19 16 18 11 9 12 8 15 6 3 14 21 0 26 27 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17 11 16 0 12 25 26 21 8 14 9 13 19 18 3 15 6 27</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

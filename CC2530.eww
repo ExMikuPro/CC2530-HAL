@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\project\HAL.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\project\SSD1306OLED.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
