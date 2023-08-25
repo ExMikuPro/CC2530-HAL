@@ -8,7 +8,7 @@
 
 void main()
 {
-  // 设置系统运行速度
+  // 璁剧疆绯荤粺杩愯閫熷害
   CLOCK_SET_SYSTEM_32MHZ();
   
   display_Init_SPI_HW();

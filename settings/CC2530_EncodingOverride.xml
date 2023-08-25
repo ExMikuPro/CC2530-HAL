@@ -12,4 +12,8 @@
         <path>C:\Users\31770\Documents\CC2530\code\SSD1306OLED\main.c</path>
         <encoding>UTF-8</encoding>
     </override>
+    <override>
+        <path>C:\Users\31770\Documents\CC2530\code\SSD1306OLED\oled.c</path>
+        <encoding>UTF-8</encoding>
+    </override>
 </userOverrides>
